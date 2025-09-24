@@ -1,6 +1,6 @@
 # Nim JPEG Codec
 
-This project implements a baseline JPEG encoder and decoder in pure Nim using only the standard library. It supports 8-bit, non-progressive images with 4:2:0 subsampling on the encoder and can read typical baseline JPEG files.
+This project implements a baseline JPEG encoder and decoder in pure. It supports 8-bit, non-progressive images with 4:2:0 subsampling on the encoder and can read typical baseline JPEG files.
 
 ## Features
 
@@ -16,7 +16,7 @@ This project implements a baseline JPEG encoder and decoder in pure Nim using on
 ## Building
 
 ```
-nim c --nimcache:nimcache main.nim
+nim c -d:release main.nim
 ```
 
 ## CLI usage
